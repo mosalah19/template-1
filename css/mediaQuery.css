@@ -1,0 +1,34 @@
+/*
+for small labtop
+*/
+@media (max-width: 80em) {
+  .container {
+    width: 90rem;
+  }
+  .special-text {
+    font-size: 7rem;
+  }
+  .special-text + p {
+    font-size: 1.2rem;
+    margin: -1rem;
+  }
+  .services-section .container .col .image-sevice {
+    display: none;
+  }
+}
+/*
+for landscape tablet
+*/
+@media (max-width: 62em) {
+  .container {
+    width: 70rem;
+  }
+}
+/*
+for mopile
+*/
+@media (max-width: 48em) {
+  .container {
+    width: 40rem;
+  }
+}
